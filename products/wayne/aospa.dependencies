@@ -1,0 +1,44 @@
+[
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_device_xiaomi_wayne",
+        "target_path": "device/xiaomi/wayne",
+        "revision": "uvite"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_vendor_xiaomi_wayne",
+        "target_path": "vendor/xiaomi/wayne",
+        "revision": "uvite"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_kernel_xiaomi_wayne",
+        "target_path": "kernel/xiaomi/wayne",
+        "revision": "uvite"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_hardware_qcom_audio",
+        "target_path": "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision": "uvite-660"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_hardware_qcom_display",
+        "target_path": "hardware/qcom/display",
+        "revision": "uvite-660"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_hardware_qcom_media",
+        "target_path": "hardware/qcom/media",
+        "revision": "uvite-660"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_hardware_qcom_thermal",
+        "target_path": "vendor/qcom/opensource/thermal-hal",
+        "revision": "uvite-660"
+    }
+]
