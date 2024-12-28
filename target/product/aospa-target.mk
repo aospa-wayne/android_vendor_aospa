@@ -91,10 +91,16 @@ PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
 # Google - GMS, Pixel, and Mainline Modules
+ifneq ($(TARGET_USE_GMS), true)
+# Pixel Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/google/pixel/sepolicy
+else
 $(call inherit-product, vendor/google/gms/config.mk)
 $(call inherit-product, vendor/google/pixel/config.mk)
 ifneq ($(TARGET_EXCLUDE_GMODULES), true)
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules.mk)
+endif
 endif
 
 # HIDL
