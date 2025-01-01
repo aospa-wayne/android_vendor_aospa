@@ -19,6 +19,12 @@
     },
     {
         "remote": "github",
+        "repository": "aospa-wayne/android_frameworks_base",
+        "target_path": "frameworks/base",
+        "revision": "uvite"
+    },
+    {
+        "remote": "github",
         "repository": "aospa-wayne/android_hardware_qcom_audio",
         "target_path": "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision": "uvite-660"
@@ -40,5 +46,11 @@
         "repository": "aospa-wayne/android_hardware_qcom_thermal",
         "target_path": "vendor/qcom/opensource/thermal-hal",
         "revision": "uvite-660"
+    },
+    {
+        "remote": "github",
+        "repository": "aospa-wayne/android_packages_apps_Settings",
+        "target_path": "packages/apps/Settings",
+        "revision": "uvite"
     }
 ]
