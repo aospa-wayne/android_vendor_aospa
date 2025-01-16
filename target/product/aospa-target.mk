@@ -29,6 +29,9 @@ $(call inherit-product, vendor/aospa/target/product/version.mk)
 # AOSPA private configuration - optional.
 $(call inherit-product-if-exists, vendor/aospa-priv/target/product/aospa-priv-target.mk)
 
+# Use releasekey
+$(call inherit-product-if-exists, vendor/39-keys/sign.mk)
+
 # APNs
 ifneq ($(TARGET_NO_TELEPHONY), true)
 PRODUCT_COPY_FILES += \
